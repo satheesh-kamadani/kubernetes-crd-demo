@@ -1,4 +1,4 @@
-# 🚀 Kubernetes CRD Demo
+# 🚀 Kubernetes Custom Resource Definition Demo
 
 A hands-on demonstration of creating and deploying a **Custom Resource Definition (CRD)** on Kubernetes using **Minikube** and **Amazon Linux EC2**.  
 This project showcases how Kubernetes APIs can be extended using CRDs to define and manage custom resources for real-world platform automation.

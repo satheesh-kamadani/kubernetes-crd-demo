@@ -72,3 +72,22 @@ sudo mv ./kubectl /usr/local/bin/kubectl
 kubectl version --short --client
 ```
 ## Step 3: Clone the Repository
+``` bash
+git clone https://github.com/satheesh-kamadani/kubernetes-crd-demo.git
+cd kubernetes-crd-demo
+```
+
+## Step 4: Deploy the CRD and Custom Resource
+``` bash
+# Apply the CRD
+kubectl apply -f custom_resource_definition.yml
+
+# Verify CRD registration
+kubectl api-resources | grep myplatform
+
+# Apply the custom resource
+kubectl apply -f custom_resource.yml
+
+# View custom resource
+kubectl get myp
+```
